@@ -78,59 +78,8 @@ const AboutPage = () => {
         </div>
       </section>
       
-      {/* Team */}
-      <section className="py-16 bg-boutique-cream/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Notre Équipe</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=461&auto=format&fit=crop"
-                  alt="Marie Lefèvre"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Marie Lefèvre</h3>
-              <p className="text-boutique-burgundy mb-2">Fondatrice</p>
-              <p className="text-gray-600 text-sm">
-                Ancienne styliste de mode, Marie a voyagé dans le monde entier pour dénicher des pièces uniques.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=687&auto=format&fit=crop"
-                  alt="Thomas Durand"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Thomas Durand</h3>
-              <p className="text-boutique-burgundy mb-2">Directeur Artistique</p>
-              <p className="text-gray-600 text-sm">
-                Thomas apporte son œil expert pour la sélection et la mise en valeur de nos collections.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=464&auto=format&fit=crop"
-                  alt="Sophie Martin"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Sophie Martin</h3>
-              <p className="text-boutique-burgundy mb-2">Relation Artisans</p>
-              <p className="text-gray-600 text-sm">
-                Sophie coordonne nos partenariats avec les artisans du monde entier.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      
     </div>
   );
 };
